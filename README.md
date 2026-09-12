@@ -1,42 +1,50 @@
 # Python Learning Journey
 
-This repository contains my journey of learning Python through small, practical projects.
+This repository documents my journey of learning Python through small, practical projects.
 
-Instead of only following tutorials, I am using projects to learn Python by building, experimenting, making mistakes, debugging, and improving my code.
+Rather than relying solely on tutorials and theory, I learn by building, experimenting, making mistakes, debugging, and improving my code along the way.
 
 ## Goals
 
-- Learn Python fundamentals
+- Learn and strengthen Python fundamentals
 - Improve problem-solving and programming skills
 - Learn how to structure and organize Python projects
-- Practice writing clean and readable code
-- Learn Git and GitHub
+- Practice writing clean, readable, and maintainable code
+- Learn and practice Git and GitHub
 - Build a portfolio of practical projects
-- Gradually move from beginner projects to more advanced applications
+- Progress from simple programs to more advanced applications
 
 ## Projects
 
 | # | Project | Concepts |
 |---|---|---|
 | 01 | [Number Analyzer](projects/01-number-analyzer/) | Variables, input, conditionals, functions, loops, exceptions |
+| 02 | [Number Guessing Game](projects/02-number-guessing-game/) | Modules, random numbers, loops, conditionals, input validation, exceptions |
 
-More projects will be added as I progress through Python.
+More projects will be added as I continue learning and improving my Python skills.
+
+Each project will generally have two versions:
+
+- **Simple Version** — focuses on the core concepts and a straightforward implementation.
+- **Advanced Version** — builds upon the simple version with improved structure, additional features, and cleaner, more readable code.
 
 ## Learning Approach
 
-Each project is built with the following approach:
+My learning process follows a build-and-improve approach:
 
 ```text
 Learn a concept
       ↓
-Build something with it
+Apply it to a project
       ↓
-Test it
+Test the implementation
       ↓
-Make mistakes
+Identify mistakes and problems
       ↓
-Debug
+Debug and understand the cause
       ↓
 Improve the code
+      ↓
+Refactor and add features
       ↓
 Commit the progress
