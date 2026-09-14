@@ -81,7 +81,7 @@ def user_preference():
 
 def high_scores():
     
-    tries 
+    tries = play_game()
     if tries == 1:
         score = 100
     elif tries <= 5:
