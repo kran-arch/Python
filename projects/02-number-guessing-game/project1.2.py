@@ -34,11 +34,9 @@ def main_menu():
         choice = input("Enter your choice: ")
         
         if choice == "1":
-            final_score = play_game()
-            
-            if final_score > current_highscore:
-                current_highscore = final_score
-                print(f"New Highscore! Your score is: {current_highscore}")
+            final_score = play_game()            
+            current_highscore += final_score
+        
         elif choice == "2":
             view_highscore()
         elif choice == "3":
@@ -60,6 +58,9 @@ def play_game():
             return 0
         elif guess == "menu":
             return 0
+        if guess < 1 or 100 < guess:
+            print("Please enter the numbers from 1 to 100")    
+            continue    
         
         tries += 1
         
@@ -82,7 +83,8 @@ def play_game():
             print(f"You've used all your tries! The correct number was {secret_number}.")
             print("Better luck next time!")
             return 0
-            
+        
+        
         if guess < secret_number:
             print("Too low!")
         else:
