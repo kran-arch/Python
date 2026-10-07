@@ -19,8 +19,11 @@ contact3 = {
     "email": "email2"
 }
 
-contact = [contact1,contact2,contact3]
-print(contact[0]["name"])
-print(contact[1])
-print(contact)
+contacts = [contact1,contact2,contact3]
 
+contact1.update({"name": "person1"})
+contact1.update({"email": "email1"})
+del contact1["phone"]   
+print(contact1)
+for x in contacts:
+    print(x["phone"])
