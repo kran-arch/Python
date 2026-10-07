@@ -1,5 +1,5 @@
 #I am still learning the concept
-#Busy with college MSTs
+
 
 contact1 = {
     "name": "Karan Khokhar",
@@ -13,9 +13,14 @@ contact2 = {
     "email": "email1"
 }
 
-contact = [contact1,contact2]
+contact3 = {
+    "name": "person2",
+    "phone": "mobile2",
+    "email": "email2"
+}
 
-print(contact[0])
-
-
+contact = [contact1,contact2,contact3]
+print(contact[0]["name"])
+print(contact[1])
+print(contact)
 

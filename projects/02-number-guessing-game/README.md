@@ -1,4 +1,4 @@
-# Number Guessing Game
+# Project 2 - Number Guessing Game
 
 A small command-line game built while learning Python fundamentals.
 
@@ -53,5 +53,5 @@ This project started as a simple script and was gradually improved with function
 
 ```text
 02-number-guessing-game/
-└── project1.2.py
-└── project1.py
+└── concept_learning.py
+└── number_guessing_game.py

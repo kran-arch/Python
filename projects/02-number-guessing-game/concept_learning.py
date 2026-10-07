@@ -11,7 +11,7 @@
 import random
 
 secret_number = random.randint(1, 100)
-print(f"The secret number is: {secret_number}") #For debugging purposes, this line can be removedin the final version of the game.
+print(f"The secret number is: {secret_number}") #For debugging purposes, this line can be removed in the final version of the game.
 
 print("Welcome to the Number Guessing Game!")
 print("I have selected a secret number between 1 and 100. Try to guess it!")

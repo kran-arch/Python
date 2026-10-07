@@ -24,7 +24,7 @@ The improved version also:
 
 ## Versions
 
-### `project1.py`
+### `concept_learning.py`
 
 The original version of the project.
 
@@ -37,10 +37,12 @@ This version was created while learning:
 - Modulo
 - Basic Python functions
 
-### `project1.2.py`
+The only purpose of "concept_learning.py" was to learn the concept for making number_analyzer
 
-The improved version.
+### `number_analyzer.py`
 
+The improved and final version.
+This reflects the knowledge and practical experience gained over the course of this short project.
 This version introduced:
 
 - Custom functions
